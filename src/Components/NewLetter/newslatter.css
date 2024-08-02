@@ -1,0 +1,156 @@
+.newslatter {
+  width: 65%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 140px;
+  margin-top: 450px;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  gap: 20px;
+}
+.newslatter h1 {
+  font-size: 55px;
+  color: #454545;
+  font-weight: 600;
+}
+.newslatter p {
+  font-size: 22px;
+  color: #454545;
+  font-weight: 600;
+}
+.newslatter div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 730px;
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+.newslatter input {
+  width: 500px;
+  margin-left: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: poppins;
+  color: #616161;
+}
+.newslatter div button {
+  width: 220px;
+  height: 70px;
+  border-radius: 80px;
+  background: black;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .newslatter {
+    margin-top: 305px;
+    padding: 0px 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+  .newslatter h1 {
+    font-size: 36px;
+  }
+  .newslatter p {
+    font-size: 16px;
+  }
+  .newslatter div {
+    width: 600px;
+    height: 60px;
+  }
+  .newslatter div input {
+    width: 400px;
+  }
+  .newslatter div button {
+    width: 160px;
+    height: 60px;
+  }
+}
+@media (max-width: 1062px) {
+  .newslatter {
+    margin-top: 230px;
+    margin-bottom: 60px;
+  }
+  .newslatter h1 {
+    font-size: 30px;  
+  }
+  .newslatter p {
+    font-size: 14px;
+  }
+  .newslatter div {
+    width: 500px;
+    height: 50px;
+  }
+  .newslatter div input {
+    width: 300px;
+    font-size: 14px;
+  }
+  .newslatter div button {
+    width: 120px;
+    font-size: 14px;
+    height: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .newslatter {
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  .newslatter h1 {
+    font-size: 24px;
+  }
+  .newslatter p {
+    font-size: 14px;
+  }
+  .newslatter div {
+    width: 400px;
+    height: 40px;
+  }
+  .newslatter div input {
+    width: 200px;
+    font-size: 13px;
+  }
+  .newslatter div button {
+    width: 100px;
+    height: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .newslatter {
+    margin-top: 550px;
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    gap: 15px;
+  }
+  .newslatter h1 {
+    font-size: 14px;
+  }
+  .newslatter p {
+    font-size: 10px;
+  }
+  .newslatter div {
+    width: 290px;
+  }
+  .newslatter div {
+    width: 200px;
+    height: 30px;
+  }
+  .newslatter div input {
+    width: 90px;
+    font-size: 10px;
+  }
+  .newslatter div button {
+    width: 90px;
+    height: 30px;
+  }
+}
